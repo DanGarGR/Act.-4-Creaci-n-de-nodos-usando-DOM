@@ -70,7 +70,7 @@ articulo1.appendChild(contenidoArticulo1);
 // Crear el segundo artículo (al lado) con imagen
 let articulo2 = document.createElement("article");
 let imagen2 = document.createElement("img");
-imagen2.setAttribute("src", "https://via.placeholder.com/300x200"); // URL de imagen de ejemplo
+imagen2.setAttribute("src", "./imagen/m.png"); // URL de imagen de ejemplo
 imagen2.setAttribute("alt", "Imagen al lado");
 imagen2.style.maxWidth = "100%";
 articulo2.appendChild(imagen2);
@@ -80,17 +80,17 @@ let lineaConoceme1 = document.createElement("h2");
 lineaConoceme1.textContent = "Conóceme";
 
 // Crear el tercer artículo (debajo) con imagen
-let articulo3 = document.createElement("article");
-let imagen3 = document.createElement("img");
-imagen3.setAttribute("src", "https://via.placeholder.com/300x200"); // URL de imagen de ejemplo
-imagen3.setAttribute("alt", "Imagen debajo");
-imagen3.style.maxWidth = "100%";
-articulo3.appendChild(imagen3);
+let articulo4 = document.createElement("article");
+let imagen4 = document.createElement("img");
+imagen4.setAttribute("src", "./imagen/m.png"); // URL de imagen de ejemplo
+imagen4.setAttribute("alt", "Imagen debajo");
+imagen4.style.maxWidth = "100%";
+articulo4.appendChild(imagen4);
 
 // Crear el cuarto artículo con texto
-let articulo4 = document.createElement("article");
-let contenidoArticulo4 = document.createTextNode("Este es un artículo debajo.");
-articulo4.appendChild(contenidoArticulo4);
+let articulo3 = document.createElement("article");
+let contenidoArticulo3 = document.createTextNode("Este es un artículo debajo.");
+articulo3.appendChild(contenidoArticulo3);
 
 // Agregar el título y los artículos a la nueva sección
 seccionConoceme.appendChild(tituloConoceme);
